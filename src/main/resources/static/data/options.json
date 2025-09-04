@@ -1,0 +1,26 @@
+{
+  "languages": ["English", "हिन्दी", "తెలుగు", "বাংলা", "मराठी", "தமிழ்"],
+  "education": {
+    "UG": ["B.Tech", "B.Sc", "B.A", "B.Com"],
+    "PG": ["M.Tech", "M.Sc", "MBA", "M.A"],
+    "Diploma": ["Polytechnic", "ITI"],
+    "Other": ["PhD", "Certificate Course"]
+  },
+  "skills": {
+    "B.Tech": ["Java", "Python", "C++", "Web Development"],
+    "B.Sc": ["Lab Work", "Research", "Data Analysis"],
+    "B.A": ["Content Writing", "Public Speaking", "Teaching"],
+    "MBA": ["Finance", "Marketing", "Leadership"],
+    "Default": ["Communication", "MS Office", "Teamwork"]
+  },
+  "sectors": ["IT Services", "Healthcare", "Education", "Finance", "Agriculture", "Social Work"],
+  "locations": {
+    "Odisha": ["Cuttack", "Bhubaneswar", "Puri", "Balasore"],
+    "Delhi": ["North Delhi", "South Delhi", "East Delhi"],
+    "Maharashtra": ["Mumbai", "Pune", "Nagpur", "Nashik"],
+    "Uttar Pradesh": ["Lucknow", "Kanpur", "Varanasi", "Agra"],
+    "Karnataka": ["Bengaluru", "Mysuru", "Mangalore"],
+    "Tamil Nadu": ["Chennai", "Coimbatore", "Madurai"]
+  },
+  "interests": ["Artificial Intelligence", "Web Development", "Healthcare Services", "Teaching", "Finance", "NGO & Social Work"]
+}

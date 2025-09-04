@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Internship Recommendation Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #e0f7fa, #e8f5e9);
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+        }
+        h3 {
+            color: #1565c0;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-4">
+    <h3 class="text-center mb-4"><b>AI-based Internship Recommendation</b></h3>
+
+    <!-- Language -->
+    <div class="mb-3">
+        <label class="form-label">Select Language</label>
+        <select id="language" class="form-select"></select>
+    </div>
+
+    <!-- Education -->
+    <div class="mb-3">
+        <label class="form-label">Education Category</label>
+        <select id="educationCategory" class="form-select"></select>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Course</label>
+        <select id="educationCourse" class="form-select"></select>
+    </div>
+
+    <!-- ✅ Skills (Checkboxes dynamically added here) -->
+    <div class="mb-3">
+        <label class="form-label">Skills</label>
+        <div id="skills" class="border rounded p-2"></div>
+    </div>
+
+    <!-- Sector -->
+    <div class="mb-3">
+        <label class="form-label">Sector Interest</label>
+        <select id="sectors" class="form-select"></select>
+    </div>
+
+    <!-- Location -->
+    <div class="mb-3">
+        <label class="form-label">State</label>
+        <select id="state" class="form-select"></select>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">District</label>
+        <select id="district" class="form-select"></select>
+    </div>
+
+    <!-- Interests -->
+    <div class="mb-3">
+        <label class="form-label">Specific Interests</label>
+        <select id="interests" class="form-select" multiple></select>
+        <input type="text" id="newInterest" class="form-control mt-2" placeholder="Enter new interest" style="display:none;">
+    </div>
+
+    <button class="btn btn-primary w-100">Get Recommendations</button>
+
+    <!-- ✅ Results Section -->
+    <div id="results" class="mt-4"></div>
+</div>
+
+<script src="form.js"></script>
+</body>
+</html>
