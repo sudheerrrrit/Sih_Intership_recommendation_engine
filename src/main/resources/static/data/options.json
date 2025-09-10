@@ -1,26 +1,55 @@
 {
-  "languages": ["English", "हिन्दी", "తెలుగు", "বাংলা", "मराठी", "தமிழ்"],
+  "languages": ["English", "Hindi", "French", "Spanish"],
+
   "education": {
-    "UG": ["B.Tech", "B.Sc", "B.A", "B.Com"],
-    "PG": ["M.Tech", "M.Sc", "MBA", "M.A"],
-    "Diploma": ["Polytechnic", "ITI"],
-    "Other": ["PhD", "Certificate Course"]
+    "Engineering": ["CSE", "ECE", "ME", "Civil"],
+    "Management": ["MBA", "BBA"],
+    "Science": ["BSc", "MSc"],
+    "Arts": ["BA", "MA"]
   },
+
   "skills": {
-    "B.Tech": ["Java", "Python", "C++", "Web Development"],
-    "B.Sc": ["Lab Work", "Research", "Data Analysis"],
-    "B.A": ["Content Writing", "Public Speaking", "Teaching"],
-    "MBA": ["Finance", "Marketing", "Leadership"],
-    "Default": ["Communication", "MS Office", "Teamwork"]
+    "CSE": ["Java", "Spring Boot", "SQL", "Data Structures", "Python"],
+    "ECE": ["Circuits", "VLSI", "Matlab", "Embedded Systems"],
+    "ME": ["CAD", "Thermodynamics", "SolidWorks"],
+    "Civil": ["AutoCAD", "Surveying", "Structural Analysis"],
+    "MBA": ["Marketing", "Finance", "HR", "Business Analytics"],
+    "BBA": ["Accounting", "Management Basics", "Entrepreneurship"],
+    "BSc": ["Lab Work", "Research", "Statistics"],
+    "MSc": ["Data Analysis", "Machine Learning", "Research"],
+    "BA": ["History", "Political Science", "Economics"],
+    "MA": ["Sociology", "Psychology", "English Literature"],
+    "Default": ["Communication", "Problem Solving", "Teamwork"]
   },
-  "sectors": ["IT Services", "Healthcare", "Education", "Finance", "Agriculture", "Social Work"],
+
+  "sectors": [
+    "IT",
+    "Electronics",
+    "Mechanical",
+    "Civil",
+    "Finance",
+    "Education",
+    "Healthcare",
+    "Research"
+  ],
+
   "locations": {
-    "Odisha": ["Cuttack", "Bhubaneswar", "Puri", "Balasore"],
-    "Delhi": ["North Delhi", "South Delhi", "East Delhi"],
-    "Maharashtra": ["Mumbai", "Pune", "Nagpur", "Nashik"],
-    "Uttar Pradesh": ["Lucknow", "Kanpur", "Varanasi", "Agra"],
-    "Karnataka": ["Bengaluru", "Mysuru", "Mangalore"],
-    "Tamil Nadu": ["Chennai", "Coimbatore", "Madurai"]
+    "Uttar Pradesh": ["Lucknow", "Kanpur", "Noida"],
+    "Madhya Pradesh": ["Bhopal", "Indore", "Gwalior"],
+    "Maharashtra": ["Mumbai", "Pune", "Nagpur"],
+    "Karnataka": ["Bengaluru", "Mysuru"],
+    "Delhi": ["New Delhi", "Dwarka"],
+    "Tamil Nadu": ["Chennai", "Coimbatore"]
   },
-  "interests": ["Artificial Intelligence", "Web Development", "Healthcare Services", "Teaching", "Finance", "NGO & Social Work"]
+
+  "interests": [
+    "AI",
+    "ML",
+    "Web Development",
+    "App Development",
+    "IoT",
+    "Robotics",
+    "Cloud Computing",
+    "Cybersecurity"
+  ]
 }
